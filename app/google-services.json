@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "830692036419",
+    "firebase_url": "https://chocolate-cca3e.firebaseio.com",
+    "project_id": "chocolate-cca3e",
+    "storage_bucket": "chocolate-cca3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830692036419:android:24673f8dc6dd8ea7f929f6",
+        "android_client_info": {
+          "package_name": "com.example.doitchocolate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830692036419-690f3mlimnvd1i1kkknks8qeqjljih4b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDE_gd6Wx97IXVt0bOvGQBYiJQhDy00g0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830692036419-690f3mlimnvd1i1kkknks8qeqjljih4b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorStone">
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keranjang"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"/>
+
+    <ListView
+        android:id="@+id/lvPurchase"
+        android:layout_marginTop="5dp"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:layout_below="@id/txtHeader"
+        android:layout_above="@id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_alignParentBottom="true"
+        android:weightSum="3">
+        <EditText
+            android:id="@+id/edt_total"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_height="50dp"
+            android:inputType="none"
+            android:textColor="@android:color/black"
+            android:text="Total: Rp. 0"
+            android:textAlignment="center"
+            android:background="@color/colorTransparentBg"
+            android:textColorHint="@color/colorSecondaryText"/>
+        <Button
+            android:id="@+id/btnBatal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:textColor="@android:color/white"
+            android:layout_height="50dp"
+            android:background="@android:color/holo_red_dark"
+            android:text="Batal"/>
+        <Button
+            android:id="@+id/btnPesan"
+            android:layout_width="0dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:layout_height="50dp"
+            android:background="@color/colorDarkGreen"
+            android:text="Pesan"/>
+    </LinearLayout>
+</RelativeLayout>

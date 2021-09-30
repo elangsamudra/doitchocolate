@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doitchocolate">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_elang"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_elang"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/SplashTheme">
+        <activity android:name=".Activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".Activities.RegisterActivity" />
+        <activity android:name=".Activities.MainActivity" />
+        <activity android:name=".Activities.FrontActivity" />
+        <activity android:name=".Activities.AdminMainActivity" />
+        <activity android:name=".Activities.ManageCategoryCRUDActivity" />
+        <activity android:name=".Activities.ManageProductListActivity" />
+        <activity android:name=".Activities.ManageProductCRUDActivity" />
+        <activity android:name=".Activities.ProductDetailActivity" />
+        <activity android:name=".Activities.CartActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Activities.TransactionActivity" />
+        <activity android:name=".Activities.ManageTransactionActivity" />
+        <activity android:name=".Activities.ReportActivity" />
+        <activity android:name=".Activities.ManageReportListActivity" />
+        <activity android:name=".Activities.OrdersDetailActivity" />
+    </application>
+
+</manifest>

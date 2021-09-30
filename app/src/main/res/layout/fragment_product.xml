@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorStone"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="6dp">
+    <TextView
+        android:id="@+id/txtTagline"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorShade"
+        android:textStyle="bold"
+        android:text="Please select a category.."
+        android:textSize="14sp"/>
+    <ListView
+        android:id="@+id/lvCategory"
+        android:layout_below="@id/txtTagline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:padding="6dp"/>
+</RelativeLayout>
